@@ -1,0 +1,13 @@
+.box {
+    margin-top: 10px;
+    /*border: 1px dashed red;*/
+    max-width: 300px;
+}
+
+.box.parent {
+    margin: 10px 0px;
+}
+
+h6 {
+    margin: 5px 0px;
+}

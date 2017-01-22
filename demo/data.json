@@ -1,18 +1,3 @@
-# knockout-dynamic-form
-script to generate dynamic forms based on JSON input using knockout.
-
-Script at `./src/script.js`
-
-Dependency: `knockout`, `jQuery`
-
-### To run demo
-1. Go to DEMO dir `cd demo`
-2. Install the required node packages `npm install`
-3. Start the http server `npm start`
-4. Open in browser `http://localhost:8099`
-
-### Data format
-```JSON
 [{
     "field_type": "select",
     "field_name": "workitems",
@@ -111,6 +96,3 @@ Dependency: `knockout`, `jQuery`
         }]
     }]
 }]
-```
-### Output
-![screenshot](./screenshots/form_screenshot.png)
